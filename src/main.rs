@@ -19,8 +19,6 @@ const SUBCMD_PING:&str = "ping";
 
 fn main() {
     let matches = App::new("rsping")
-
-    
                             .version(DEFAULT_VERSION)
                             .author("wuqian <wuqianking123@gmail.com>")
                             .about("a super ping implied by rust")
